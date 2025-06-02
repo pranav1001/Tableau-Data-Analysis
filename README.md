@@ -108,4 +108,8 @@ This analysis provides energy companies with actionable insights to:
 
 *For detailed visualizations and findings, refer to the Tableau workbook and accompanying documentation.*
 
+PROJECT – INTEGRATED ANALYSIS: K-MEANS CLUSTERING USING TABLEAU & R
+Project Overview
+This project demonstrates an integrated data analysis workflow by applying K-means clustering to the Titanic dataset using R, and visualizing the resulting clusters in Tableau through R integration. The objective is to uncover passenger survival patterns by segmenting the dataset into meaningful clusters and profiling the characteristics associated with high survivability.
+
 
