@@ -45,3 +45,67 @@ The project employed Tableau's relationship modeling to connect six different da
 
 Business Value
 This analysis provides actionable insights for inventory management, staffing optimization, marketing campaigns, and customer experience improvements by understanding when customers shop, what they buy, and how their purchasing behaviors evolve over time.
+
+
+# PROJECT 2 – NATURAL DISASTER IMPACT ANALYSIS ON ENERGY REFINERIES
+
+## Project Overview
+
+This project leverages Tableau to analyze the impact of natural disasters on energy company refineries in the United States, using FEMA disaster data from 2004–2015. The analysis integrates disaster occurrence data with refinery locations to identify risk patterns, visualize geographic vulnerabilities, and inform business continuity planning for the energy sector.
+
+## Key Analysis Areas
+
+**Natural Disaster Mapping**
+
+- Visualized a decade of natural disaster incidents across the contiguous U.S. using Tableau map visualizations.
+- Applied color encoding to distinguish disaster types (e.g., Hurricane, Flood, Fire).
+- Incorporated size encoding to represent the frequency of incidents per county.
+- Enabled interactive filtering by state and disaster type for granular analysis.
+
+**Refinery Location Analysis**
+
+- Selected a major energy company with at least five U.S. refineries (excluding Alaska, Hawaii, and territories).
+- Mapped refinery locations alongside disaster data to assess geographic exposure.
+- Used shape and color encoding to differentiate refineries from disaster incidents (e.g., refineries marked as red stars).
+
+**Disaster Impact on Refinery States**
+
+- Filtered disaster maps to only states with company refineries.
+- Annotated refinery locations for clarity and labeled each with refinery names.
+- Identified and listed disaster types impacting each refinery state (e.g., Fire and Hurricane in New Jersey; Flood, Coastal Storm, and Hurricane in Louisiana).
+
+**Top 4 Disaster Types at Refinery Locations**
+
+- Created calculated fields in Tableau to:
+  - Count disaster occurrences (Number of Incidents)
+  - Rank disaster types by frequency
+  - Segment maps into a 2x2 grid (multi-map) for side-by-side comparison of the top four disaster types.
+- Labeled each map with the disaster name and incident count.
+- Determined that the most frequent disaster impacting refinery areas is Severe Storm.
+
+**Storytelling and Business Value**
+
+- Compiled all visualizations into a Tableau Story, using logical rhetoric.
+- The story enables stakeholders to:
+  - Identify which disasters most frequently threaten refinery operations.
+  - Prepare targeted disaster response and mitigation strategies.
+  - Optimize resource allocation for safety and operational continuity.
+
+## Methodology
+
+- Data preparation included merging FEMA disaster records with refinery site data.
+- Tableau was used for all visualizations, employing calculated fields, filters, color/size/shape encoding, and annotation features.
+- Multi-map (trellis chart) techniques enabled comparative analysis of disaster types across refinery locations.
+
+## Business Value
+
+This analysis provides energy companies with actionable insights to:
+- Prioritize disaster preparedness in high-risk refinery locations.
+- Inform insurance, infrastructure investment, and emergency planning.
+- Enhance operational resilience by understanding historical disaster patterns and their impact on critical assets.
+
+---
+
+*For detailed visualizations and findings, refer to the Tableau workbook and accompanying documentation.*
+
+
